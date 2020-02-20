@@ -1,0 +1,8 @@
+<web-app>
+
+<!--pagina di benvenuto-->
+<welcome-file>saluto.jsp</welcome-file>
+
+</web-app>
+
+<!--<display-name>BeginnersBookServlet</display-name>-->
