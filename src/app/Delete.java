@@ -23,7 +23,7 @@ public class Delete implements java.io.Serializable{
 	public String getRisultato(){
 		try{
 			Class.forName("com.mysql.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/dizionario","root", "");
+			Connection con = DriverManager.getConnection("jdbc:mysql://eu-cdbr-west-02.cleardb.net:3306/heroku_33da02306540a41","b3043c631fc184", "8259b3e4");
 			Statement stmt = con.createStatement();
             if(stmt.executeUpdate("DELETE FROM indice WHERE  parola='" + parola + "'")==0){
                 return "termine non trovato";
