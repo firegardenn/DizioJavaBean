@@ -1,4 +1,4 @@
-package app;
+package servlet;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -10,6 +10,10 @@ import java.sql.Statement;
 //import java.util.logging.Logger;
 
 public class Cerca implements java.io.Serializable{
+	/**
+	 *
+	 */
+	private static final long serialVersionUID = 1L;
 	private String termine;
 	private String risposta;
 	public Cerca(){
